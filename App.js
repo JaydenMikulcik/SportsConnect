@@ -11,8 +11,8 @@ export default function App() {
       <Text>Helo WOrk   d 123</Text>
   
       <StatusBar style="auto" />
+      <Navigation_page />
       <Bottom_navigator />
-      cunt
     </View>
   );
 }
