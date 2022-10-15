@@ -12,20 +12,23 @@ export default function Bottom_navigator() {
   return (
     <View style={styles.container}>
         <Text>{currentpage}</Text>
-      <Button title="Navigate" color="#841584" onPress={e => setCurrentPage("Navigate")}/>
-      <Button title="Find" color="#841584" onPress={e => setCurrentPage("Find")}/>
+      <Button style={styles.button} title="Navigate" color="#841584" onPress={e => setCurrentPage("Play")}/>
       <Button title="Profile" color="#841584" onPress={e => setCurrentPage("Profile")}/>
-      <Button title="Post" color="#841584" onPress={e => setCurrentPage("Post")}/>
-      <Button title="Settings" color="#841584" onPress={e => setCurrentPage("Settings")}/>
+      <Button title="Find" color="#841584" onPress={e => setCurrentPage("Join")}/>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
+    width: '100%',
     flexDirection: 'row',
     backgroundColor: 'blue',
     alignItems: 'center',
     bottom: 1,
   },
+
+  button: {
+    flex: 1
+  }
 });

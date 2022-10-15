@@ -1,14 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-import Bottom_navigator from './components/bottom_navigator';
 
-export default function App() {
+export default function Find_page() {
   return (
     <View style={styles.container}>
       <Text>This Page is for fiding</Text>
       <StatusBar style="auto" />
-      <Bottom_navigator />
     </View>
   );
 }

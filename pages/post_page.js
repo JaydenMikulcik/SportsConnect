@@ -1,14 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 
-import Bottom_navigator from './components/bottom_navigator';
 
-export default function App() {
+export default function Post_page() {
   return (
     <View style={styles.container}>
-      <Text>This is the post page</Text>
+      <Text>This is your username</Text>
+      <Image
+        style={{ width: 250, height: 250 }}
+        source={require('../images/Default-profile.jpg')}
+        />
       <StatusBar style="auto" />
-      <Bottom_navigator />
     </View>
   );
 }
