@@ -3,13 +3,10 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Bottom_navigator from './components/bottom_navigator';
 
-import Navigation_page from './pages/navigate_page';
-
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Helo WOrkd 123</Text>
-      <Navigation_page />
+      <Text>This is the profile page</Text>
       <StatusBar style="auto" />
       <Bottom_navigator />
     </View>
