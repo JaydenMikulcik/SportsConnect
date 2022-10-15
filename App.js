@@ -8,10 +8,11 @@ import Navigation_page from './pages/navigate_page';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Helo WOrkd 123</Text>
-      <Navigation_page />
+      <Text>Helo WOrk   d 123</Text>
+  
       <StatusBar style="auto" />
       <Bottom_navigator />
+      cunt
     </View>
   );
 }

@@ -1,14 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
-import Bottom_navigator from './components/bottom_navigator';
+/*import * as React from 'react';
+import MapView from 'react-native-maps';
+import { StyleSheet, Text, View, Dimensions } from 'react-native';
 
 export default function Navigation_page() {
   return (
     <View style={styles.container}>
-      <Text>This Page is for navigation</Text>
-      <StatusBar style="auto" />
-      <Bottom_navigator />
+      <MapView style={styles.map} />
     </View>
   );
 }
@@ -20,4 +17,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+  map: {
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').height,
+  },
+});*/
